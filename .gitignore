@@ -1,0 +1,5 @@
+.env
+frequency_data.json
+name_data.json
+user_data.json
+backups/
