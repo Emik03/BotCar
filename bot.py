@@ -9,6 +9,7 @@ import random
 import re
 from datetime import datetime
 from dotenv import load_dotenv
+from edit import *
 
 load_dotenv()
 
@@ -22,9 +23,6 @@ def to_ordinal(number):
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 JSON_TEMPLATE = '{\n}'
-DEFAULT = r'E:/!!!/absolute elite memes/cars/not found.mp3'
-VIDEO_DIRECTORY = r'E:/!!!/absolute elite memes/cars/*.mp4'
-IMAGE_DIRECTORY = r'E:/!!!/absolute elite memes/cars/*.png'
 
 videos_length = 0
 
@@ -92,7 +90,7 @@ async def leaderboards(message):
     
     if list.count > 5:
         list = list[-5:]
-        
+
     list.reverse()
 
     title = f'car of fame (posted {length} cars in total)'
