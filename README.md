@@ -22,7 +22,7 @@ A linter is used to determine on startup if duplicate or illegal cars exist in `
 
 ## Usage
 
-The bot uses the syntax 🚗 (:red_car:) or 🚙 (:blue_car:) at the start of a message. Anything afterwards is called the **Query**.
+The bot uses the syntax 🚗 (`:red_car:`) or 🚙 (`:blue_car:`) at the start of a message. Anything afterwards is called the **Query**.
 
 - If the **Query** is empty, leaderboards are shown displaying the top 5 people with the most amount of cars.
 
