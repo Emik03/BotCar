@@ -10,7 +10,7 @@ git clone https://github.com/Emik03/KeepCoding.git
 
 2. Include a .env file containing the private key of your discord bot in the same directory as `bot.py`.
 
-3. Go into `bot.py` and edit the constants `DEFAULT` (the embed to post in the event of no cars), `VIDEO_DIRECTORY` (directory of all videos), and `IMAGE_DIRECTORY` (directory of all images) accordingly.
+3. Go into `edit.py` and edit the constants `DEFAULT` (the embed to post in the event of no cars), `VIDEO_DIRECTORY` (directory of all videos), and `IMAGE_DIRECTORY` (directory of all images) accordingly.
 
 4. Run this command. The program will initialize and create a `user_data.json` file. When a command is queried, `frequency_data.json` and `name_data.json` will be created.
 
