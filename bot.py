@@ -88,7 +88,7 @@ async def leaderboards(message):
 
     list.sort(key=lambda tup: tup[1])
     
-    if list.count > 5:
+    if len(list) > 5:
         list = list[-5:]
 
     list.reverse()
