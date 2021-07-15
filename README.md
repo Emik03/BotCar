@@ -1,5 +1,11 @@
 # Bot Car
 
+## Privacy
+
+As any discord bot functions, this bot will process every message internally, however none of these messages are logged.
+
+When a user direct messages or uses the command, their discord name and uid are sent — which is already public information — into a cached file. This is necessary to keep track of everyone's car lists. Any provider of this bot will also be able to see the list of all cars any given person has.
+
 ## Setup
 
 1. Download and extract the full source code, or clone the repository:
