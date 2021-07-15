@@ -207,7 +207,7 @@ async def on_message(message):
     if str(message.channel.type) != 'private' and content.find('🚗 ') != 0 and content.find('🚙 ') != 0:
         return
         
-    print(f'[{datetime.now().strftime("%d/%m/%Y %H:%M:%S")}]: {content}')
+    # print(f'[{datetime.now().strftime("%d/%m/%Y %H:%M:%S")}]: {content}')
 
     content = content.replace('🚗 ', '').replace('🚙 ', '')
     (embed, file) = post(content, message.author)
