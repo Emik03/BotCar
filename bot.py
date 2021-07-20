@@ -216,7 +216,7 @@ async def on_message(message):
 
 @client.event
 async def on_ready():
-    await client.change_presence(activity=discord.Game('dm me for cars :) [info: https://github.com/Emik03/BotCar]'))
+    await client.change_presence(activity=discord.Game('videos of drip cars'))
     print(f'Monday, May 3, 2021, 3:22PM')
 
 client.run(TOKEN)
