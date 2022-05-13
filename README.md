@@ -9,7 +9,7 @@ As any discord bot functions, this bot will process every message internally, ho
 1. Download and extract the full source code, or clone the repository:
 
 ```
-git clone https://github.com/Emik03/KeepCoding.git
+git clone https://github.com/Emik03/BotCar.git
 ```
 
 2. Include a .env file containing the private key of your discord bot in the same directory as `bot.py`.
