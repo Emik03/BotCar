@@ -2,7 +2,7 @@
 
 ## Deprecation Notice
 
-After 2 years of maintainance, the bot has run its course on my maintainance. [The touch has been passed](https://github.com/PanForPancakes/dripcarbot) and will continue without me. Thank you for the unending support, drip car connoisseurs.
+After 2 years of maintainance, the bot has run its course on my maintainance. [The torch has been passed](https://github.com/PanForPancakes/dripcarbot) and will continue without me. Thank you for the unending support, drip car connoisseurs.
 
 Long live, automodrip.
 
