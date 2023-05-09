@@ -1,5 +1,11 @@
 # Bot Car
 
+## Deprecation Notice
+
+After 2 years of maintainance, the bot has run its course on my maintainance. [The touch has been passed](https://github.com/PanForPancakes/dripcarbot) and will continue without me. Thank you for the unending support, drip car connoisseurs.
+
+Long live, automodrip.
+
 ## Privacy
 
 As any discord bot functions, this bot will process every message internally, however none of these messages are logged. When a user direct messages or uses the command, their discord name and uid are sent — which is already public information — into a cached file. This is necessary to keep track of everyone's car lists. Any provider of this bot will also be able to see the list of all cars any given person has.
